@@ -15,7 +15,12 @@ export class FriendsappComponent implements OnInit {
   DescribeYourFriend=""
 
   readValues=()=>{
-    let data
+    let data={
+      "_id":this._id,
+      "friendName":this.friendName,
+      "friendNickName":this.friendNickName,
+      "DescribeYourFriend":this.DescribeYourFriend
+    }
   }
 
   ngOnInit(): void {
