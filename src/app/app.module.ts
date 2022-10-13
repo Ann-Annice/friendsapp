@@ -16,10 +16,11 @@ const appRoutes:Routes=[
   {
     path:"view",component:ViewfriendsappComponent
   },
+]
  
 
 @NgModule({
-  declarations: [
+  declarations:[
     AppComponent,
     NavbarComponent,
     FriendsappComponent,
