@@ -21,6 +21,7 @@ export class FriendsappComponent implements OnInit {
       "friendNickName":this.friendNickName,
       "DescribeYourFriend":this.DescribeYourFriend
     }
+    
   }
 
   ngOnInit(): void {
