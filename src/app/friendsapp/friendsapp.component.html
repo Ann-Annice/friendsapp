@@ -1,0 +1,57 @@
+<app-navbar></app-navbar>
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://image.shutterstock.com/image-photo/online-virtual-video-conference-training-260nw-1754979101.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://image.shutterstock.com/image-photo/online-virtual-video-conference-training-260nw-1754979101.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://image.shutterstock.com/image-photo/online-virtual-video-conference-training-260nw-1754979101.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+  </div>
+  
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div class="row g-3">
+               
+                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-2">
+                    <label for="Name" class="form-control">Id</label>
+                    <input type="text" name="_id" [(ngModel)]="_id"class="form-control">
+                </div>
+              
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <label for="Description" class="form-control">Name</label>
+                    <input type="text" class="form-control" name="name" [(ngModel)]="name"id="">
+                  
+
+                </div>
+                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                    <label for="Duration" class="form-control">Friend Name</label>
+                    <input type="text" class="form-control" name="friendName" [(ngModel)]="friendName">
+
+                </div>
+                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-2">
+                    <label for="coursedate" class="form-control">Friend Nickname</label>
+                    <input type="date" name="friendNickName"[(ngModel)]="friendNickName" id="">
+                  
+
+                </div>
+                 
+               <div class="col col-12 col-sm-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-2">
+                    <label for="Mobile" class="form-control">Describe your Friend</label>
+                    <input type="text" class="form-control" name="DescribeYourFriend" [(ngModel)]="DescribeYourFriend">
+
+                </div>
+               <div class="col col-12 col-sm-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <button class="btn btn-success" (click)="readValues()">Submit</button>
+                   
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
